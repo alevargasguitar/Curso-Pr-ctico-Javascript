@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Titulo {
+    height: 8rem;
+    /* width: 2rem; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    place-items: center;
+    background-color: aquamarine;
+}
+
+.Titulo h1 {
+    padding-top: 1.5rem;
+}
+
+.Titulo p {
+    padding-bottom: 1rem;
+}
+
+.formulario .label_cuadrado {
+    width: 100%;
+}
+
+.formulario .input_cuadrado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario .botones_cuadrado {
+    display: inline-block;
+}
+
+.seccion_cuadrado {
+    display: grid;
+    place-items: center;
+}
